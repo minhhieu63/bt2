@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding:0;
+}
+p,h1{
+    margin:20px 10px;
+    width: 50vh;
+}
+.text{
+    position: absolute;
+}
+.picture{
+    left:60vh;
+    width: 100vh;
+    height:100vh;
+    background-image: url('bgimage.png');
+    background-repeat: no-repeat;
+    position: absolute;
+}
+table, th, td {
+    border: 2px solid red;
+    border-collapse: collapse;
+    font-family: arial;
+}
+.o1-1{
+    background-color: red;
+    color:#fff;
+    font-weight: bold;
+    font-size: 20px;
+    height:30px;
+}
+.o2-1{
+    background-color: rgba(255, 0, 0, 0.237);
+    color:red;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    height:50px;
+}
+.o3-1, .o3-2{
+    padding:30px;
+    font-size: 22px;
+}
+h3{
+    color:red;
+}
+input{
+    width:95%;
+}
+.line{
+    width:95%;
+    height:2px;
+    background-color:#ccc;
+}
